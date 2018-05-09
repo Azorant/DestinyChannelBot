@@ -1,0 +1,29 @@
+{
+  "name": "destinychannelbot",
+  "version": "1.0.0",
+  "description": "Bot that manages the voice channels in https://discord.gg/ST6RzmA",
+  "main": "Destiny.js",
+  "scripts": {
+    "start": "pm2 start pm2.json && pm2 log",
+    "restart": "pm2 delete Destiny && pm2 start pm2.json && pm2 log",
+    "stop": "pm2 delete Destiny"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HazedSPaCEx/DestinyChannelBot.git"
+  },
+  "keywords": [
+    "discord",
+    "destiny"
+  ],
+  "author": "Hazed SPaCEx#2574",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/HazedSPaCEx/DestinyChannelBot/issues"
+  },
+  "homepage": "https://github.com/HazedSPaCEx/DestinyChannelBot#readme",
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "disnode-logger": "^0.2.0"
+  }
+}

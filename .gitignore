@@ -57,3 +57,5 @@ typings/
 # dotenv environment variables file
 .env
 
+# pm2 config file
+pm2.json

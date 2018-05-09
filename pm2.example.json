@@ -1,0 +1,44 @@
+{
+  "apps": [{
+    "name": "Destiny",
+    "script": "./Destiny.js",
+    "exec_interpreter": "node",
+    "env": {
+      "TOKEN": "",
+      "PRESENCE":"",
+      "FIRE":"",
+      "RAID":"",
+      "NAMES": ["Cayde-6",
+        "Zavala",
+        "Ikora",
+        "Eris",
+        "Toland",
+        "Ghost",
+        "Speaker",
+        "Ghaul",
+        "The Consul",
+        "Shaxx",
+        "Hawthorne",
+        "Devrim",
+        "IO",
+        "Titan",
+        "Nessus",
+        "Failsafe",
+        "Emissary",
+        "Calus",
+        "Sloane",
+        "Asher Mir",
+        "Amanda",
+        "Rahool",
+        "Tyra",
+        "Tess",
+        "Hideo",
+        "Jalaal",
+        "Lakshmi",
+        "Saladin",
+        "Banshee",
+        "Xur"
+      ]
+    }
+  }]
+}
